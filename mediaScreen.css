@@ -1,0 +1,124 @@
+@media screen and (max-width:700px){
+    /* ---------banner------------ */
+.banner{
+    margin-top: 10px;
+    height: 130vh;
+    /* background-color: #000000; */
+}
+.banner-sm{
+    text-align: center;
+}
+.banner-row{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.banner-name{
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+}
+.banner p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.bttn-primery{
+    width: 120px;
+    height: 40px;
+    font-size: large;
+    background-color: #ffff;
+    color: #003a92;
+    border: #013c94 solid 2px;
+}
+.bttn-primery:hover{
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+.banner-img img{
+    width: 100%;
+    height: 4 0px;
+    border-radius: 10px;
+    margin-top: 10px;   
+}
+/* --------- FEATURESection------------- */
+.FEATURE-row{
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+}
+.FEATURE-col {
+    width: 90px;
+}
+
+.FEATURE-col img{
+    width: 100px;
+}
+.FEATURESection{
+    height: 200px;
+    margin-top: 20px;
+}/* ---------------Letest Review------------------- */
+.card-contain img{
+    height: 350px;
+    width: 420px;
+    margin: 0px 15px 0px 15px;
+    border-radius: 10px;
+}
+.red-butt{
+    border: none;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background-color: cornsilk;
+}
+.red-butt:hover{
+    color: #853e0b;
+}
+.letstrevi-card{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+/* -------------Restaurant--------------- */
+.Restaurant{
+    margin: 10px 0px;
+    background-color: #f0f3f8;
+}
+.card{
+    border: none !important;
+}
+.card img{
+    border-radius: 15px;
+}
+/* --------------contact---------------- */
+.contact{
+    border: #000000 2px solid;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-deti{
+    margin: 20px 0px;
+}
+.contact-deti input{
+    margin-left: 50px;
+}
+.contact-img img{
+    width: 400px;
+    height: 350px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: #9c7575 4px -2px 12px 2px;
+}
+.sub{
+    background-color: #003a92;
+    border: none;
+    color: #ffff;
+}
+.sub:hover{
+    border: #000000 1px solid;
+    color: #ff0000;
+    background-color: #f0f3f8;
+}
+
+
+
+}
